@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.Container{
+  height: 102vh;
+  width: 210vh;
+  background-image: url("./assets/ChatBack2.jpg");
+  background-size: cover; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  
+}
+.innerContainer{
+  
+  width: 90vh;
+  height:90vh;
+  border-radius: 35%;
+  background-color: white;
+  
+}
+h1{
+  margin-left: 14rem;
+  margin-top: 1rem;
+  font-size: 34px;
+}
+img{
+  width: 50%;
+  margin-left: 176px;
+  border-radius: 9px;
+  box-shadow: 5px 10px 15px 5px gray;
+  margin-top: 5rem;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: 5rem;
+
+}
